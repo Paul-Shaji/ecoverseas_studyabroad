@@ -91,7 +91,7 @@ const ContactPage = () => {
               </div>
               <div className="space-y-1">
                 <Label htmlFor="phone" className="text-xs font-medium">Phone Number</Label>
-                <Input id="phone" type="tel" placeholder="+91 98765 43210" value={form.phone} onChange={e => updateField("phone", e.target.value)} className="h-9 text-sm" />
+                <Input id="phone" type="tel" placeholder="+91 9778358140" value={form.phone} onChange={e => updateField("phone", e.target.value)} className="h-9 text-sm" />
               </div>
             </div>
 
@@ -162,7 +162,7 @@ const ContactPage = () => {
           </div>
 
           {[
-            { icon: Phone,  label: "Phone",  value: "+91 97785 58140",           href: "tel:+919778558140" },
+            { icon: Phone,  label: "Phone",  value: "+91 9778358140",           href: "tel:+919778358140" },
             { icon: Mail,   label: "Email",  value: "ECoverseas@gmail.com",            href: "mailto:your@gmail.com" },
             { icon: MapPin, label: "Office", value: "ECoverseas", href: "https://maps.app.goo.gl/3K2yygR7kKj79ta77" },
             { icon: Clock,  label: "Hours",  value: "Mon – Sat, 9 AM – 6 PM",    href: null },
@@ -186,7 +186,7 @@ const ContactPage = () => {
 
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/919778558140"
+            href="https://wa.me/919778358140"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 w-full px-4 py-3 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 hover:bg-[#25D366]/20 transition-colors"
